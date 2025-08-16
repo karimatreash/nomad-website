@@ -1,6 +1,7 @@
 'use client';
 import { useState, useEffect } from 'react';
 import { useFavorites } from '@/contexts/FavoritesContext';
+import { useTranslations } from '@/hooks/useTranslations';
 import ProductCard from '@/components/ProductCard';
 import { supabase } from '@/lib/supabaseClient';
 
@@ -24,6 +25,7 @@ interface FavoriteItem {
 
 export default function FavoritesPage() {
   const { favorites, removeFavorite } = useFavorites();
+  const { locale } = useTranslations();
   const [loading, setLoading] = useState(true);
   const [favoriteProducts, setFavoriteProducts] = useState<FavoriteItem[]>([]);
 
@@ -104,9 +106,9 @@ export default function FavoritesPage() {
           <p className="text-text-secondary mb-8 font-cairo">
             لم تقم بإضافة أي منتجات إلى المفضلة بعد
           </p>
-          <a href="/products" className="btn-primary font-cairo">
-            تصفح المنتجات
-          </a>
+                                  <a href={`/${locale}/products`} className="btn-primary font-cairo">
+                          تصفح المنتجات
+                        </a>
         </div>
       </div>
     );
@@ -126,7 +128,7 @@ export default function FavoritesPage() {
             </p>
           </div>
         </div>
-      </div>
+              </div>
 
       <div className="container-responsive section-padding">
         {/* Favorites Count */}
@@ -134,7 +136,7 @@ export default function FavoritesPage() {
           <p className="text-text-secondary font-cairo">
             لديك {favoriteProducts.length} منتج في المفضلة
           </p>
-        </div>
+              </div>
 
         {/* Favorites Grid */}
         <div className="card-grid">
@@ -167,9 +169,9 @@ export default function FavoritesPage() {
             >
               إفراغ المفضلة
             </button>
-            <a href="/products" className="btn-outline font-cairo">
-              متابعة التسوق
-            </a>
+                                    <a href={`/${locale}/products`} className="btn-outline font-cairo">
+                          متابعة التسوق
+                        </a>
           </div>
         </div>
 

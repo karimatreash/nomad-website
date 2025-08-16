@@ -1,22 +1,21 @@
 'use client';
-import Image from 'next/image';
-import { useState } from 'react';
+import { useState, memo } from 'react';
 import { useCart } from '@/contexts/CartContext';
 import { useFavorites } from '@/contexts/FavoritesContext';
 import { useTranslations } from '@/hooks/useTranslations';
+import OptimizedImage from './OptimizedImage';
 
 interface ProductCardProps {
   product?: any;
   loading?: boolean;
 }
 
-export default function ProductCard({ product, loading = false }: ProductCardProps) {
+const ProductCard = memo(function ProductCard({ product, loading = false }: ProductCardProps) {
   const { addToCart } = useCart();
   const { favorites, addFavorite, removeFavorite } = useFavorites();
   const { locale } = useTranslations();
   const [selectedSize, setSelectedSize] = useState('');
   const [quantity, setQuantity] = useState(1);
-  const [imageLoading, setImageLoading] = useState(true);
   const [isAddingToCart, setIsAddingToCart] = useState(false);
 
   const isFavorite = favorites.some(fav => fav.product_id === product?.id);
@@ -83,19 +82,12 @@ export default function ProductCard({ product, loading = false }: ProductCardPro
 
       {/* Product Image */}
       <div className="relative w-full aspect-square bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl overflow-hidden group-hover:shadow-xl transition-all duration-300">
-        {imageLoading && (
-          <div className="absolute inset-0 bg-gray-200 animate-pulse rounded-2xl" />
-        )}
-        <Image 
+        <OptimizedImage 
           src={product?.image || '/next.svg'} 
           alt={product?.name || 'Product'} 
           width={400} 
           height={400}
-          className={`object-cover w-full h-full transition-all duration-500 ${
-            imageLoading ? 'scale-110 blur-sm' : 'scale-100 blur-0'
-          }`}
-          onLoad={() => setImageLoading(false)}
-          onError={() => setImageLoading(false)}
+          className="object-cover w-full h-full transition-all duration-500"
         />
         
         {/* Hover Overlay */}
@@ -208,4 +200,6 @@ export default function ProductCard({ product, loading = false }: ProductCardPro
       </div>
     </div>
   );
-} 
+});
+
+export default ProductCard; 

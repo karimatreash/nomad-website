@@ -37,24 +37,24 @@
     "admin": "الإدارة"
   },
   "hero": {
-    "topLabel": "كشخة",
+    "topLabel": "Nomad",
     "title": "يا هلا بالحلوين",
-    "subtitle": "kashkhashop.com",
+    "subtitle": "nomad.com",
     "cta": "تسوق الآن",
     "slide1": {
-      "topLabel": "كشخة",
+      "topLabel": "Nomad",
       "title": "يا هلا بالحلوين",
-      "subtitle": "kashkhashop.com"
+      "subtitle": "nomad.com"
     },
     "slide2": {
       "topLabel": "عروض مميزة",
       "title": "تسوق بأناقة",
-      "subtitle": "kashkhashop.com"
+      "subtitle": "nomad.com"
     },
     "slide3": {
       "topLabel": "إطلالتك أجمل",
       "title": "مجموعة مختارة بعناية",
-      "subtitle": "kashkhashop.com"
+      "subtitle": "nomad.com"
     }
   },
   "home": {
@@ -63,7 +63,7 @@
     "shopByCategory": "تسوق حسب الفئة",
     "shopByCategoryDesc": "تصفح المنتجات حسب فئاتها",
     "featuredProducts": "منتجات مميزة",
-    "featuredProductsDesc": "أفضل المنتجات المختارة لك",
+    "featuredProductsSubtitle": "أفضل المنتجات المختارة لك",
     "features": "مميزاتنا",
     "featuresDesc": "لماذا تختار كشخة شوب",
     "testimonials": "آراء العملاء",
@@ -71,8 +71,16 @@
     "aboutUs": "من نحن",
     "aboutUsDesc": "تعرف على قصة كشخة شوب",
     "viewAll": "عرض الكل",
+    "viewAllProducts": "عرض جميع المنتجات",
+    "viewAllCategories": "عرض جميع الفئات",
     "shopNow": "تسوق الآن",
-    "learnMore": "اعرف المزيد"
+    "learnMore": "اعرف المزيد",
+    "freeShipping": "شحن مجاني",
+    "freeShippingDesc": "شحن مجاني لجميع الطلبات",
+    "qualityGuarantee": "ضمان الجودة",
+    "qualityGuaranteeDesc": "منتجات عالية الجودة مع ضمان",
+    "fastDelivery": "توصيل سريع",
+    "fastDeliveryDesc": "توصيل سريع وآمن"
   },
   "products": {
     "title": "المنتجات",

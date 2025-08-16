@@ -38,15 +38,15 @@ export default function RegisterPage() {
       const { error } = await supabase.auth.signUp({
         email: formData.email,
         password: formData.password,
-        options: {
+      options: {
           data: {
             first_name: formData.firstName,
             last_name: formData.lastName,
           },
         },
-      });
-
-      if (error) {
+    });
+    
+    if (error) {
         setError('فشل إنشاء الحساب. يرجى المحاولة مرة أخرى.');
       } else {
         router.push('/login?message=تم إنشاء الحساب بنجاح');
@@ -62,9 +62,9 @@ export default function RegisterPage() {
     <div className="min-h-screen bg-background flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 font-cairo">
       <div className="max-w-md w-full space-y-8">
         <div className="text-center">
-          <div className="mx-auto h-16 w-16 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center">
-            <span className="text-white text-2xl font-bold">ك</span>
-          </div>
+                                <div className="mx-auto h-16 w-16 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center">
+                        <span className="text-white text-2xl font-bold">N</span>
+                      </div>
           <h2 className="mt-6 text-3xl font-bold text-text-primary">
             إنشاء حساب جديد
           </h2>
@@ -121,10 +121,10 @@ export default function RegisterPage() {
               <label htmlFor="email" className="block text-sm font-medium text-text-primary mb-2 font-cairo">
                 البريد الإلكتروني
               </label>
-              <input
+          <input
                 id="email"
                 name="email"
-                type="email"
+            type="email"
                 autoComplete="email"
                 required
                 value={formData.email}
@@ -144,7 +144,7 @@ export default function RegisterPage() {
                 name="password"
                 type="password"
                 autoComplete="new-password"
-                required
+            required
                 value={formData.password}
                 onChange={handleChange}
                 className="input-primary font-cairo"
@@ -157,10 +157,10 @@ export default function RegisterPage() {
               <label htmlFor="confirmPassword" className="block text-sm font-medium text-text-primary mb-2 font-cairo">
                 تأكيد كلمة المرور
               </label>
-              <input
+          <input
                 id="confirmPassword"
                 name="confirmPassword"
-                type="password"
+            type="password"
                 autoComplete="new-password"
                 required
                 value={formData.confirmPassword}
@@ -177,7 +177,7 @@ export default function RegisterPage() {
               id="terms"
               name="terms"
               type="checkbox"
-              required
+            required
               className="h-4 w-4 text-primary focus:ring-primary border-gray-300 rounded"
             />
             <label htmlFor="terms" className="mr-2 block text-sm text-text-secondary font-cairo">
@@ -193,11 +193,11 @@ export default function RegisterPage() {
           </div>
 
           <div>
-            <button
-              type="submit"
-              disabled={loading}
+          <button 
+            type="submit" 
+            disabled={loading}
               className="btn-primary w-full text-lg py-3 font-cairo disabled:opacity-50 disabled:cursor-not-allowed"
-            >
+          >
               {loading ? 'جاري إنشاء الحساب...' : 'إنشاء الحساب'}
             </button>
           </div>
@@ -232,7 +232,7 @@ export default function RegisterPage() {
                 <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
               </svg>
               إنشاء حساب بحساب جوجل
-            </button>
+          </button>
           </div>
         </form>
       </div>

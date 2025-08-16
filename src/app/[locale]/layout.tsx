@@ -25,12 +25,12 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   
-  return {
-    title: locale === 'ar' ? 'كشخة شوب - تسوق بأسلوب' : 'Kashkha Shop - Shop with Style',
-    description: locale === 'ar' 
-      ? 'اكتشف مجموعتنا المميزة من المنتجات العصرية والأنيقة. تسوق الآن واحصل على أفضل العروض!'
-      : 'Discover our exclusive collection of modern and elegant products. Shop now and get the best offers!',
-  };
+                return {
+                title: locale === 'ar' ? 'Nomad - تسوق بأسلوب' : 'Nomad - Shop with Style',
+                description: locale === 'ar'
+                  ? 'اكتشف مجموعتنا المميزة من المنتجات العصرية والأنيقة. تسوق الآن واحصل على أفضل العروض!'
+                  : 'Discover our exclusive collection of modern and elegant products. Shop now and get the best offers!',
+              };
 }
 
 export default async function LocaleLayout({

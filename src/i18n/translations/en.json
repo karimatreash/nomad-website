@@ -37,24 +37,24 @@
     "admin": "Admin"
   },
   "hero": {
-    "topLabel": "Kashkha",
+    "topLabel": "Nomad",
     "title": "Welcome to Elegance",
-    "subtitle": "kashkhashop.com",
+    "subtitle": "nomad.com",
     "cta": "Shop Now",
     "slide1": {
-      "topLabel": "Kashkha",
+      "topLabel": "Nomad",
       "title": "Welcome to Elegance",
-      "subtitle": "kashkhashop.com"
+      "subtitle": "nomad.com"
     },
     "slide2": {
       "topLabel": "Special Offers",
       "title": "Shop with Style",
-      "subtitle": "kashkhashop.com"
+      "subtitle": "nomad.com"
     },
     "slide3": {
       "topLabel": "Your Style",
       "title": "Carefully Selected Collection",
-      "subtitle": "kashkhashop.com"
+      "subtitle": "nomad.com"
     }
   },
   "home": {
@@ -63,7 +63,7 @@
     "shopByCategory": "Shop by Category",
     "shopByCategoryDesc": "Browse products by their categories",
     "featuredProducts": "Featured Products",
-    "featuredProductsDesc": "Best products selected for you",
+    "featuredProductsSubtitle": "Best products selected for you",
     "features": "Our Features",
     "featuresDesc": "Why choose Kashkha Shop",
     "testimonials": "Customer Reviews",
@@ -71,8 +71,16 @@
     "aboutUs": "About Us",
     "aboutUsDesc": "Learn about Kashkha Shop story",
     "viewAll": "View All",
+    "viewAllProducts": "View All Products",
+    "viewAllCategories": "View All Categories",
     "shopNow": "Shop Now",
-    "learnMore": "Learn More"
+    "learnMore": "Learn More",
+    "freeShipping": "Free Shipping",
+    "freeShippingDesc": "Free shipping on all orders",
+    "qualityGuarantee": "Quality Guarantee",
+    "qualityGuaranteeDesc": "High-quality products with guarantee",
+    "fastDelivery": "Fast Delivery",
+    "fastDeliveryDesc": "Fast and secure delivery"
   },
   "products": {
     "title": "Products",

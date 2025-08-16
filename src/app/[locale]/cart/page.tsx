@@ -2,10 +2,12 @@
 import { useState } from 'react';
 import { useCart } from '@/contexts/CartContext';
 import { useRouter } from 'next/navigation';
+import { useTranslations } from '@/hooks/useTranslations';
 import Link from 'next/link';
 
 export default function CartPage() {
   const { cart, updateQuantity, removeFromCart } = useCart();
+  const { locale } = useTranslations();
   const [loading, setLoading] = useState(false);
   const router = useRouter();
 
@@ -45,9 +47,9 @@ export default function CartPage() {
           <p className="text-text-secondary mb-8 font-cairo">
             لم تقم بإضافة أي منتجات إلى سلة التسوق بعد
           </p>
-          <Link href="/products" className="btn-primary font-cairo">
-            تصفح المنتجات
-          </Link>
+                                <Link href={`/${locale}/products`} className="btn-primary font-cairo">
+                        تصفح المنتجات
+                      </Link>
         </div>
       </div>
     );
@@ -158,9 +160,9 @@ export default function CartPage() {
                 >
                   إفراغ السلة
                 </button>
-                <Link href="/products" className="btn-outline font-cairo">
-                  متابعة التسوق
-                </Link>
+                                            <Link href={`/${locale}/products`} className="btn-outline font-cairo">
+                              متابعة التسوق
+                            </Link>
               </div>
             </div>
           </div>

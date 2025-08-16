@@ -7,7 +7,9 @@ interface HeroSlide {
 	id: number;
 	topLabel: string;
 	titleAr: string;
+	titleEn: string;
 	subtitleAr: string;
+	subtitleEn: string;
 	link: string;
 	imageUrl: string;
 	overlayColor: string;
@@ -19,37 +21,43 @@ interface HeroSlide {
 const defaultSlides: HeroSlide[] = [
 	{
 		id: 1,
-		topLabel: 'كشخة',
+		topLabel: 'Nomad',
 		titleAr: 'يا هلا بالحلوين',
-		subtitleAr: 'kashkhashop.com',
+		titleEn: 'Welcome to Elegance',
+		subtitleAr: 'nomad.com',
+		subtitleEn: 'nomad.com',
 		link: 'products',
-		imageUrl: '/hero-1.jpg',
+		imageUrl: '/icon.jpg',
 		overlayColor: 'rgba(6, 42, 38, 0.7)',
 		isActive: true,
 		order: 1,
-	},
-	{
+  },
+  {
 		id: 2,
 		topLabel: 'عروض مميزة',
 		titleAr: 'تسوق بأناقة',
-		subtitleAr: 'kashkhashop.com',
+		titleEn: 'Shop with Style',
+		subtitleAr: 'nomad.com',
+		subtitleEn: 'nomad.com',
 		link: 'categories',
-		imageUrl: '/hero-2.jpg',
+		imageUrl: '/icon.jpg',
 		overlayColor: 'rgba(5, 48, 42, 0.7)',
 		isActive: true,
 		order: 2,
-	},
-	{
+  },
+  {
 		id: 3,
 		topLabel: 'إطلالتك أجمل',
 		titleAr: 'مجموعة مختارة بعناية',
-		subtitleAr: 'kashkhashop.com',
+		titleEn: 'Carefully Selected Collection',
+		subtitleAr: 'nomad.com',
+		subtitleEn: 'nomad.com',
 		link: 'about',
-		imageUrl: '/hero-3.jpg',
+		imageUrl: '/icon.jpg',
 		overlayColor: 'rgba(6, 42, 38, 0.7)',
 		isActive: true,
 		order: 3,
-	},
+  },
 ];
 
 export default function HeroSlider() {
@@ -117,7 +125,7 @@ export default function HeroSlider() {
 
 	const slide = slides[currentSlide];
 
-	return (
+  return (
 		<section className="relative w-full h-screen overflow-hidden select-none">
 			{/* Background Image */}
 			<div className="absolute inset-0">
@@ -173,15 +181,15 @@ export default function HeroSlider() {
 							direction: isRTL ? 'rtl' as const : 'ltr' as const,
 						}}
 					>
-						{isRTL ? slide.titleAr : 'Welcome to Elegance'}
-					</h1>
+						                        {isRTL ? slide.titleAr : slide.titleEn}
+          </h1>
 
 					{/* Subheading / domain */}
-					<p
-						className="mt-6 font-semibold text-gold/95 font-cairo text-xl lg:text-2xl xl:text-3xl"
-					>
-						{isRTL ? slide.subtitleAr : 'kashkhashop.com'}
-					</p>
+					                      <p
+                        className="mt-6 font-semibold text-gold/95 font-cairo text-xl lg:text-2xl xl:text-3xl"
+                      >
+                        {isRTL ? slide.subtitleAr : slide.subtitleEn}
+                      </p>
 
 					{/* CTA (subtle) */}
 					<div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -196,9 +204,9 @@ export default function HeroSlider() {
 						>
 							{isRTL ? 'تسوق الآن' : 'Shop Now'}
 						</Link>
-					</div>
-				</div>
-			</div>
+        </div>
+          </div>
+        </div>
 
 			{/* Dots - only show if more than one slide */}
 			{slides.length > 1 && (
@@ -216,7 +224,7 @@ export default function HeroSlider() {
 							aria-label={`Go to slide ${index + 1}`}
 						/>
 					))}
-				</div>
+      </div>
 			)}
 
 			{/* Arrows - only show if more than one slide */}
@@ -249,6 +257,6 @@ export default function HeroSlider() {
 					</button>
 				</>
 			)}
-		</section>
-	);
+    </section>
+  );
 } 

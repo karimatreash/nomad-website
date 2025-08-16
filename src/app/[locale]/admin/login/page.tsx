@@ -30,8 +30,8 @@ export default function AdminLoginPage() {
           .select('*')
           .eq('user_id', (await supabase.auth.getUser()).data.user?.id)
           .single();
-
         if (adminData) {
+          debugger;
           router.push('/admin');
         } else {
           setError('ليس لديك صلاحيات إدارية. يرجى التواصل مع المسؤول.');
@@ -49,9 +49,9 @@ export default function AdminLoginPage() {
     <div className="min-h-screen bg-background flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 font-cairo">
       <div className="max-w-md w-full space-y-8">
         <div className="text-center">
-          <div className="mx-auto h-20 w-20 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center">
-            <span className="text-white text-3xl font-bold">ك</span>
-          </div>
+                                <div className="mx-auto h-20 w-20 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center">
+                        <span className="text-white text-3xl font-bold">N</span>
+                      </div>
           <h2 className="mt-6 text-3xl font-bold text-text-primary">
             تسجيل دخول المدير
           </h2>

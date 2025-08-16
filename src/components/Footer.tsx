@@ -24,9 +24,9 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-4 mb-8">
               <div className="w-12 h-12 bg-gradient-to-br from-[#5C6BC0] to-[#FF4081] rounded-3xl flex items-center justify-center shadow-glow">
-                <span className="text-white font-bold text-2xl">ك</span>
+                                        <span className="text-white font-bold text-2xl">N</span>
               </div>
-              <span className="text-3xl font-bold bg-gradient-to-r from-[#5C6BC0] to-[#FF4081] bg-clip-text text-transparent">كشخة شوب</span>
+                                        <span className="text-3xl font-bold bg-gradient-to-r from-[#5C6BC0] to-[#FF4081] bg-clip-text text-transparent">Nomad</span>
             </div>
             <p className="text-[#B0BEC5] mb-8 leading-relaxed text-lg">
               {isRTL 

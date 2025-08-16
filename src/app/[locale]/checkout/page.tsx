@@ -2,9 +2,11 @@
 import { useState } from 'react';
 import { useCart } from '@/contexts/CartContext';
 import { useRouter } from 'next/navigation';
+import { useTranslations } from '@/hooks/useTranslations';
 
 export default function CheckoutPage() {
   const { cart } = useCart();
+  const { locale } = useTranslations();
   const [loading, setLoading] = useState(false);
   const [step, setStep] = useState(1);
   const router = useRouter();
@@ -237,7 +239,7 @@ export default function CheckoutPage() {
                         <option value="عمان">عمان</option>
                       </select>
                     </div>
-                  </div>
+            </div>
 
                   <div className="pt-6">
                     <button
@@ -245,9 +247,9 @@ export default function CheckoutPage() {
                       className="btn-primary w-full text-lg py-4 font-cairo"
                     >
                       التالي: الدفع
-                    </button>
+            </button>
                   </div>
-                </form>
+          </form>
               </div>
             )}
 
@@ -345,9 +347,9 @@ export default function CheckoutPage() {
                 </p>
                 
                 <div className="space-y-4">
-                  <a href="/products" className="btn-primary font-cairo">
-                    متابعة التسوق
-                  </a>
+                                              <a href={`/${locale}/products`} className="btn-primary font-cairo">
+                              متابعة التسوق
+                            </a>
                   <a href="/orders" className="btn-outline font-cairo">
                     عرض الطلبات
                   </a>
@@ -389,9 +391,9 @@ export default function CheckoutPage() {
                         {(item.product?.price || 0) * item.quantity} ريال
                       </p>
                     </div>
-                  </div>
-                ))}
-              </div>
+                </div>
+              ))}
+            </div>
 
               {/* Totals */}
               <div className="border-t border-gray-200 pt-4 space-y-3">
