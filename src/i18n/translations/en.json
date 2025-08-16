@@ -1,0 +1,275 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "view": "View",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "navigation": {
+    "home": "Home",
+    "products": "Products",
+    "categories": "Categories",
+    "about": "About",
+    "contact": "Contact",
+    "cart": "Cart",
+    "favorites": "Favorites",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "profile": "Profile",
+    "orders": "Orders",
+    "admin": "Admin"
+  },
+  "hero": {
+    "topLabel": "Kashkha",
+    "title": "Welcome to Elegance",
+    "subtitle": "kashkhashop.com",
+    "cta": "Shop Now",
+    "slide1": {
+      "topLabel": "Kashkha",
+      "title": "Welcome to Elegance",
+      "subtitle": "kashkhashop.com"
+    },
+    "slide2": {
+      "topLabel": "Special Offers",
+      "title": "Shop with Style",
+      "subtitle": "kashkhashop.com"
+    },
+    "slide3": {
+      "topLabel": "Your Style",
+      "title": "Carefully Selected Collection",
+      "subtitle": "kashkhashop.com"
+    }
+  },
+  "home": {
+    "newArrivals": "New Arrivals",
+    "newArrivalsDesc": "Discover the latest products in our collection",
+    "shopByCategory": "Shop by Category",
+    "shopByCategoryDesc": "Browse products by their categories",
+    "featuredProducts": "Featured Products",
+    "featuredProductsDesc": "Best products selected for you",
+    "features": "Our Features",
+    "featuresDesc": "Why choose Kashkha Shop",
+    "testimonials": "Customer Reviews",
+    "testimonialsDesc": "What our customers say about us",
+    "aboutUs": "About Us",
+    "aboutUsDesc": "Learn about Kashkha Shop story",
+    "viewAll": "View All",
+    "shopNow": "Shop Now",
+    "learnMore": "Learn More"
+  },
+  "products": {
+    "title": "Products",
+    "description": "Discover our exclusive collection of products",
+    "filterBy": "Filter by",
+    "sortBy": "Sort by",
+    "price": "Price",
+    "color": "Color",
+    "size": "Size",
+    "brand": "Brand",
+    "category": "Category",
+    "availability": "Availability",
+    "inStock": "In Stock",
+    "outOfStock": "Out of Stock",
+    "addToCart": "Add to Cart",
+    "addToFavorites": "Add to Favorites",
+    "removeFromFavorites": "Remove from Favorites",
+    "quickView": "Quick View",
+    "productDetails": "Product Details",
+    "relatedProducts": "Related Products",
+    "reviews": "Reviews",
+    "rating": "Rating",
+    "writeReview": "Write Review",
+    "noProducts": "No products found",
+    "noProductsDesc": "Try changing your search or filter criteria"
+  },
+  "categories": {
+    "title": "Categories",
+    "description": "Browse products by their categories",
+    "allCategories": "All Categories",
+    "productsCount": "product",
+    "productsCountPlural": "products",
+    "priceRange": "Price Range",
+    "from": "From",
+    "to": "To",
+    "noCategories": "No categories found",
+    "noCategoriesDesc": "Try refreshing the page or contact support"
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "empty": "Your cart is empty",
+    "emptyDesc": "Start shopping to add products to your cart",
+    "items": "Items",
+    "item": "Item",
+    "quantity": "Quantity",
+    "price": "Price",
+    "total": "Total",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "tax": "Tax",
+    "discount": "Discount",
+    "grandTotal": "Grand Total",
+    "checkout": "Checkout",
+    "continueShopping": "Continue Shopping",
+    "removeItem": "Remove Item",
+    "updateQuantity": "Update Quantity",
+    "freeShipping": "Free Shipping",
+    "shippingProgress": "Add {amount} more for free shipping",
+    "estimatedDelivery": "Estimated Delivery",
+    "secureCheckout": "Secure Checkout"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "steps": {
+      "shipping": "Shipping Information",
+      "payment": "Payment Method",
+      "review": "Order Review"
+    },
+    "shipping": {
+      "title": "Shipping Information",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address",
+      "city": "City",
+      "state": "State/Province",
+      "zipCode": "ZIP Code",
+      "country": "Country"
+    },
+    "payment": {
+      "title": "Payment Method",
+      "cardNumber": "Card Number",
+      "expiryDate": "Expiry Date",
+      "cvv": "CVV",
+      "cardholderName": "Cardholder Name",
+      "saveCard": "Save card for next time"
+    },
+    "review": {
+      "title": "Order Review",
+      "orderSummary": "Order Summary",
+      "shippingAddress": "Shipping Address",
+      "paymentMethod": "Payment Method",
+      "placeOrder": "Place Order"
+    },
+    "orderSuccess": "Order placed successfully!",
+    "orderSuccessDesc": "Thank you! We'll send you an order confirmation via email"
+  },
+  "favorites": {
+    "title": "Favorites",
+    "empty": "Your favorites list is empty",
+    "emptyDesc": "Add products to your favorites for easy access later",
+    "addToCart": "Add to Cart",
+    "removeFromFavorites": "Remove from Favorites",
+    "moveToCart": "Move to Cart"
+  },
+  "auth": {
+    "login": {
+      "title": "Login",
+      "email": "Email",
+      "password": "Password",
+      "forgotPassword": "Forgot Password?",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign Up",
+      "loginButton": "Login",
+      "loginWithGoogle": "Login with Google"
+    },
+    "register": {
+      "title": "Create Account",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "agreeToTerms": "I agree to the Terms and Conditions",
+      "alreadyHaveAccount": "Already have an account?",
+      "signIn": "Sign In",
+      "registerButton": "Create Account"
+    }
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "dashboard": "Dashboard",
+    "products": "Products",
+    "categories": "Categories",
+    "hero": "Hero Slider",
+    "orders": "Orders",
+    "reports": "Reports",
+    "users": "Users",
+    "settings": "Settings",
+    "addNew": "Add New",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "actions": "Actions",
+    "status": "Status",
+    "active": "Active",
+    "inactive": "Inactive",
+    "pending": "Pending",
+    "completed": "Completed",
+    "cancelled": "Cancelled"
+  },
+  "footer": {
+    "newsletter": "Newsletter",
+    "newsletterDesc": "Get the latest offers and new products",
+    "emailPlaceholder": "Enter your email",
+    "subscribe": "Subscribe",
+    "followUs": "Follow Us",
+    "contactInfo": "Contact Information",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "workingHours": "Working Hours",
+    "allRightsReserved": "All rights reserved",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "shippingPolicy": "Shipping Policy",
+    "returnPolicy": "Return Policy"
+  },
+  "features": {
+    "quality": "High Quality",
+    "qualityDesc": "High-quality products made from the best materials",
+    "shipping": "Fast Shipping",
+    "shippingDesc": "Free shipping on all orders over 200 SAR",
+    "support": "24/7 Support",
+    "supportDesc": "Support team available around the clock to help you",
+    "secure": "Secure Payment",
+    "secureDesc": "Secure and encrypted transactions to protect your data"
+  },
+  "testimonials": {
+    "title": "Customer Reviews",
+    "subtitle": "What our customers say about their experience with us",
+    "testimonial1": {
+      "text": "Amazing products and high quality! I recommend everyone to shop at Kashkha Shop",
+      "author": "Sarah Ahmed",
+      "rating": 5
+    },
+    "testimonial2": {
+      "text": "Excellent customer service and fast shipping. I will definitely return!",
+      "author": "Mohammed Ali",
+      "rating": 5
+    },
+    "testimonial3": {
+      "text": "Reasonable prices and elegant products. Great shopping experience!",
+      "author": "Fatima Mohammed",
+      "rating": 5
+    }
+  }
+} 

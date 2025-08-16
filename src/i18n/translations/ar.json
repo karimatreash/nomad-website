@@ -1,0 +1,275 @@
+{
+  "common": {
+    "loading": "جاري التحميل...",
+    "error": "حدث خطأ",
+    "success": "تم بنجاح",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "add": "إضافة",
+    "search": "بحث",
+    "filter": "تصفية",
+    "sort": "ترتيب",
+    "view": "عرض",
+    "close": "إغلاق",
+    "back": "رجوع",
+    "next": "التالي",
+    "previous": "السابق",
+    "submit": "إرسال",
+    "confirm": "تأكيد",
+    "yes": "نعم",
+    "no": "لا"
+  },
+  "navigation": {
+    "home": "الرئيسية",
+    "products": "المنتجات",
+    "categories": "الفئات",
+    "about": "من نحن",
+    "contact": "اتصل بنا",
+    "cart": "السلة",
+    "favorites": "المفضلة",
+    "login": "تسجيل الدخول",
+    "register": "إنشاء حساب",
+    "logout": "تسجيل الخروج",
+    "profile": "الملف الشخصي",
+    "orders": "الطلبات",
+    "admin": "الإدارة"
+  },
+  "hero": {
+    "topLabel": "كشخة",
+    "title": "يا هلا بالحلوين",
+    "subtitle": "kashkhashop.com",
+    "cta": "تسوق الآن",
+    "slide1": {
+      "topLabel": "كشخة",
+      "title": "يا هلا بالحلوين",
+      "subtitle": "kashkhashop.com"
+    },
+    "slide2": {
+      "topLabel": "عروض مميزة",
+      "title": "تسوق بأناقة",
+      "subtitle": "kashkhashop.com"
+    },
+    "slide3": {
+      "topLabel": "إطلالتك أجمل",
+      "title": "مجموعة مختارة بعناية",
+      "subtitle": "kashkhashop.com"
+    }
+  },
+  "home": {
+    "newArrivals": "وصل حديثاً",
+    "newArrivalsDesc": "اكتشف أحدث المنتجات في مجموعتنا",
+    "shopByCategory": "تسوق حسب الفئة",
+    "shopByCategoryDesc": "تصفح المنتجات حسب فئاتها",
+    "featuredProducts": "منتجات مميزة",
+    "featuredProductsDesc": "أفضل المنتجات المختارة لك",
+    "features": "مميزاتنا",
+    "featuresDesc": "لماذا تختار كشخة شوب",
+    "testimonials": "آراء العملاء",
+    "testimonialsDesc": "ماذا يقول عملاؤنا عنا",
+    "aboutUs": "من نحن",
+    "aboutUsDesc": "تعرف على قصة كشخة شوب",
+    "viewAll": "عرض الكل",
+    "shopNow": "تسوق الآن",
+    "learnMore": "اعرف المزيد"
+  },
+  "products": {
+    "title": "المنتجات",
+    "description": "اكتشف مجموعتنا المميزة من المنتجات",
+    "filterBy": "تصفية حسب",
+    "sortBy": "ترتيب حسب",
+    "price": "السعر",
+    "color": "اللون",
+    "size": "المقاس",
+    "brand": "العلامة التجارية",
+    "category": "الفئة",
+    "availability": "التوفر",
+    "inStock": "متوفر",
+    "outOfStock": "غير متوفر",
+    "addToCart": "أضف إلى السلة",
+    "addToFavorites": "أضف إلى المفضلة",
+    "removeFromFavorites": "أزل من المفضلة",
+    "quickView": "نظرة سريعة",
+    "productDetails": "تفاصيل المنتج",
+    "relatedProducts": "منتجات مشابهة",
+    "reviews": "التقييمات",
+    "rating": "التقييم",
+    "writeReview": "اكتب تقييم",
+    "noProducts": "لا توجد منتجات",
+    "noProductsDesc": "جرب تغيير معايير البحث أو التصفية"
+  },
+  "categories": {
+    "title": "الفئات",
+    "description": "تصفح المنتجات حسب فئاتها",
+    "allCategories": "جميع الفئات",
+    "productsCount": "منتج",
+    "productsCountPlural": "منتجات",
+    "priceRange": "نطاق السعر",
+    "from": "من",
+    "to": "إلى",
+    "noCategories": "لا توجد فئات",
+    "noCategoriesDesc": "جرب تحديث الصفحة أو الاتصال بالدعم"
+  },
+  "cart": {
+    "title": "سلة التسوق",
+    "empty": "سلة التسوق فارغة",
+    "emptyDesc": "ابدأ التسوق لإضافة منتجات إلى سلتك",
+    "items": "العناصر",
+    "item": "عنصر",
+    "quantity": "الكمية",
+    "price": "السعر",
+    "total": "المجموع",
+    "subtotal": "المجموع الفرعي",
+    "shipping": "الشحن",
+    "tax": "الضريبة",
+    "discount": "الخصم",
+    "grandTotal": "المجموع الكلي",
+    "checkout": "إتمام الطلب",
+    "continueShopping": "متابعة التسوق",
+    "removeItem": "إزالة العنصر",
+    "updateQuantity": "تحديث الكمية",
+    "freeShipping": "شحن مجاني",
+    "shippingProgress": "أضف {amount} أخرى للحصول على شحن مجاني",
+    "estimatedDelivery": "الموعد المتوقع للتوصيل",
+    "secureCheckout": "دفع آمن"
+  },
+  "checkout": {
+    "title": "إتمام الطلب",
+    "steps": {
+      "shipping": "معلومات الشحن",
+      "payment": "طريقة الدفع",
+      "review": "مراجعة الطلب"
+    },
+    "shipping": {
+      "title": "معلومات الشحن",
+      "firstName": "الاسم الأول",
+      "lastName": "اسم العائلة",
+      "email": "البريد الإلكتروني",
+      "phone": "رقم الهاتف",
+      "address": "العنوان",
+      "city": "المدينة",
+      "state": "الولاية/المحافظة",
+      "zipCode": "الرمز البريدي",
+      "country": "البلد"
+    },
+    "payment": {
+      "title": "طريقة الدفع",
+      "cardNumber": "رقم البطاقة",
+      "expiryDate": "تاريخ انتهاء الصلاحية",
+      "cvv": "رمز الأمان",
+      "cardholderName": "اسم حامل البطاقة",
+      "saveCard": "حفظ البطاقة للمرة القادمة"
+    },
+    "review": {
+      "title": "مراجعة الطلب",
+      "orderSummary": "ملخص الطلب",
+      "shippingAddress": "عنوان الشحن",
+      "paymentMethod": "طريقة الدفع",
+      "placeOrder": "تأكيد الطلب"
+    },
+    "orderSuccess": "تم الطلب بنجاح!",
+    "orderSuccessDesc": "شكراً لك! سنرسل لك تأكيد الطلب عبر البريد الإلكتروني"
+  },
+  "favorites": {
+    "title": "المفضلة",
+    "empty": "قائمة المفضلة فارغة",
+    "emptyDesc": "أضف منتجات إلى مفضلتك لتسهيل الوصول إليها لاحقاً",
+    "addToCart": "أضف إلى السلة",
+    "removeFromFavorites": "أزل من المفضلة",
+    "moveToCart": "انقل إلى السلة"
+  },
+  "auth": {
+    "login": {
+      "title": "تسجيل الدخول",
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "forgotPassword": "نسيت كلمة المرور؟",
+      "noAccount": "ليس لديك حساب؟",
+      "signUp": "إنشاء حساب",
+      "loginButton": "تسجيل الدخول",
+      "loginWithGoogle": "تسجيل الدخول بحساب جوجل"
+    },
+    "register": {
+      "title": "إنشاء حساب",
+      "firstName": "الاسم الأول",
+      "lastName": "اسم العائلة",
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "confirmPassword": "تأكيد كلمة المرور",
+      "agreeToTerms": "أوافق على الشروط والأحكام",
+      "alreadyHaveAccount": "لديك حساب بالفعل؟",
+      "signIn": "تسجيل الدخول",
+      "registerButton": "إنشاء حساب"
+    }
+  },
+  "admin": {
+    "title": "لوحة الإدارة",
+    "dashboard": "الرئيسية",
+    "products": "المنتجات",
+    "categories": "الفئات",
+    "hero": "شريط البطل",
+    "orders": "الطلبات",
+    "reports": "التقارير",
+    "users": "المستخدمون",
+    "settings": "الإعدادات",
+    "addNew": "إضافة جديد",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "actions": "الإجراءات",
+    "status": "الحالة",
+    "active": "نشط",
+    "inactive": "غير نشط",
+    "pending": "في الانتظار",
+    "completed": "مكتمل",
+    "cancelled": "ملغي"
+  },
+  "footer": {
+    "newsletter": "النشرة الإخبارية",
+    "newsletterDesc": "احصل على آخر العروض والمنتجات الجديدة",
+    "emailPlaceholder": "أدخل بريدك الإلكتروني",
+    "subscribe": "اشتراك",
+    "followUs": "تابعنا",
+    "contactInfo": "معلومات الاتصال",
+    "address": "العنوان",
+    "phone": "الهاتف",
+    "email": "البريد الإلكتروني",
+    "workingHours": "ساعات العمل",
+    "allRightsReserved": "جميع الحقوق محفوظة",
+    "privacyPolicy": "سياسة الخصوصية",
+    "termsOfService": "شروط الخدمة",
+    "shippingPolicy": "سياسة الشحن",
+    "returnPolicy": "سياسة الإرجاع"
+  },
+  "features": {
+    "quality": "جودة عالية",
+    "qualityDesc": "منتجات عالية الجودة مصنوعة من أفضل المواد",
+    "shipping": "شحن سريع",
+    "shippingDesc": "شحن مجاني لجميع الطلبات فوق 200 ريال",
+    "support": "دعم 24/7",
+    "supportDesc": "فريق دعم متاح على مدار الساعة لمساعدتك",
+    "secure": "دفع آمن",
+    "secureDesc": "معاملات آمنة ومشفرة لحماية بياناتك"
+  },
+  "testimonials": {
+    "title": "آراء عملائنا",
+    "subtitle": "ماذا يقول عملاؤنا عن تجربتهم معنا",
+    "testimonial1": {
+      "text": "منتجات رائعة وجودة عالية! أنصح الجميع بالتسوق من كشخة شوب",
+      "author": "سارة أحمد",
+      "rating": 5
+    },
+    "testimonial2": {
+      "text": "خدمة عملاء ممتازة وشحن سريع. سأعود بالتأكيد!",
+      "author": "محمد علي",
+      "rating": 5
+    },
+    "testimonial3": {
+      "text": "أسعار معقولة ومنتجات أنيقة. تجربة تسوق رائعة!",
+      "author": "فاطمة محمد",
+      "rating": 5
+    }
+  }
+} 
